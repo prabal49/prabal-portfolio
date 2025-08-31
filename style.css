@@ -1,0 +1,205 @@
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
+ .back-body {
+   background-color: #A6B28B;
+ }
+
+ .coustom-nav {
+   background-color: #1C352D;
+ }
+
+ .pro {
+   /* background-color: #97B067; */
+   background-color: #5A827E;
+ }
+
+ .border-cus {
+   border: 20px solid #1C352D;
+
+
+ }
+
+ .hero-section::before {
+   content: "";
+   position: absolute;
+   background: url(assests/2792370-hd_1920_1080_30fps.mp4) center center no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 90%;
+   top: 0;
+   left: 0;
+   z-index: 1;
+ }
+
+ .video-section {
+   position: relative;
+   height: 100vh;
+   /* Full screen */
+   overflow: hidden;
+ }
+
+ .background-video {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   min-width: 100%;
+   min-height: 100%;
+   width: auto;
+   height: auto;
+   z-index: -1;
+   transform: translate(-50%, -50%);
+   object-fit: cover;
+   /* Ensures video covers entire section */
+ }
+
+ .content {
+   position: relative;
+   z-index: 1;
+   text-align: center;
+   color: white;
+   top: 50%;
+   transform: translateY(-50%);
+ }
+
+ .back-video {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   min-width: 100%;
+   min-height: 100%;
+   width: auto;
+   height: auto;
+   z-index: -1;
+   transform: translate(-50%, -50%);
+   object-fit: cover;
+ }
+
+ .hero-content {
+   position: relative;
+   z-index: 1;
+   text-align: center;
+   color: #A6B28B;
+   top: 50%;
+   /* transform: translateY(-50%); */
+ }
+
+ .hero-content h2 {
+   text-shadow: 2px 2px 8px #1C352D;
+ }
+
+
+ /* Alternate Theme (swaps colors) */
+ /* Default navbar style (your current) */
+ .navbar {
+   transition: background-color 0.4s ease;
+ }
+
+ /* New color when toggled */
+ .nav-colored {
+   background-color: #919f71 !important;
+ }
+
+ /* Smooth transition */
+ .back-body {
+   transition: background-color 0.4s ease, color 0.4s ease;
+ }
+
+ /* Dark background with white text */
+ .prabal1 .back-body.prabal-colored {
+   background-color: #1C352D !important;
+   color: #ffffff !important;
+ }
+
+ /* Force text to white */
+ .prabal1 .back-body.prabal-colored h1,
+ .prabal1 .back-body.prabal-colored h4,
+ .prabal1 .back-body.prabal-colored h3,
+ .prabal1 .back-body.prabal-colored p {
+   color: #ffffff !important;
+ }
+
+ /* Smooth transition */
+ .Projects {
+   transition: background-color 0.4s ease, border-color 0.4s ease, color 0.4s ease;
+ }
+
+ /* Light mode (on toggle) */
+ .Projects.projects-colored {
+   background-color: #A6B28B !important;
+   border-color: #A6B28B !important;
+   color: #000000 !important;
+   /* keep text readable */
+ }
+
+ /* Make sure headings and buttons adapt */
+ .Projects.projects-colored h1,
+ .Projects.projects-colored h5,
+ .Projects.projects-colored p {
+   color: #000000 !important;
+ }
+
+ .Projects.projects-colored a.btn {
+   border: 2px solid #000000 !important;
+   color: #000000 !important;
+ }
+
+ /* Transition for smooth effect */
+ .prabal-form,
+ .prabal-form .container,
+ .prabal-form .row {
+   transition: background-color 0.4s ease, color 0.4s ease;
+ }
+
+ /* Dark theme applied everywhere inside */
+ .prabal-form.form-colored,
+ .prabal-form.form-colored .container,
+ .prabal-form.form-colored .row {
+   background-color: #1C352D !important;
+   color: #ffffff !important;
+ }
+
+ /* Headings & labels white */
+ .prabal-form.form-colored h1,
+ .prabal-form.form-colored label {
+   color: #ffffff !important;
+ }
+
+ /* Inputs stay light for readability */
+ .prabal-form.form-colored .form-control {
+   background-color: #f9f9f9 !important;
+   color: #000000 !important;
+ }
+
+ /* Optional: button styling on dark bg */
+ .prabal-form.form-colored button {
+   background-color: #A6B28B !important;
+   border: none;
+ }
+
+ /* Transition for smooth effect */
+ .prabal-foot {
+   transition: background-color 0.4s ease, color 0.4s ease;
+ }
+
+ /* Light footer mode */
+ .prabal-foot.footer-light {
+   background-color: #A6B28B !important;
+   /* Bootstrap light grey */
+   color: #1C352D !important;
+   /* Dark green text */
+ }
+
+ /* Make headings dark */
+ .prabal-foot.footer-light h6,
+ .prabal-foot.footer-light p,
+ .prabal-foot.footer-light a {
+   color: #1C352D !important;
+ }
+
+ /* Social icons in dark */
+ .prabal-foot.footer-light i {
+   color: #1C352D !important;
+ }

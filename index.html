@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio
+  </title>
+  <link rel="icon" type="image/x-icon" href="assests/Prabal.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+
+<body>
+  <nav class="navbar coustom-nav navbar-expand-lg fixed-top py-1  ">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <img src="assests/Prabal.png" alt="logo" height="60" width="60">
+      </a>
+
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse roboto " id="navbarNav">
+        <ul class="navbar-nav ms-auto ">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white fw-bold" role="button" href="resume.html" target="_blank">Resume</a>
+
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white fw-bold" role="button" href="#for1">About Me</a>
+
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link  text-white fw-bold" href="#for2" id="projectsDropdown" role="button">
+              Projects
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
+              <li><a class="dropdown-item" href="projects.html#khayelitsha">Khayelitsha, South Africa</a></li>
+              <li><a class="dropdown-item" href="projects.html#schools">Schools in progress</a></li>
+              <li><a class="dropdown-item" href="projects.html#women">Women’s entrepreneurship class</a></li>
+              <li><a class="dropdown-item" href="projects.html#fish">Sustainable fish farming</a></li>
+            </ul>
+          </li>
+        </ul>
+
+
+        <a href="#" class="btn  ms-lg-3 mt-2 mt-lg-0 rounded-0 roboto"
+          style="background-color: #328437; color: white;"><i class="fa-solid fa-lightbulb"></i></a>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <section class="video-section">
+
+    <video autoplay muted loop playsinline class="back-video ">
+      <source src="assests/2792370-hd_1920_1080_30fps.mp4" type="video/mp4">
+    </video>
+    <div class="hero-content">
+
+      <h2> Hi , Welcome to my portfolio.</h2>
+      <a href="#for1" class="btn  ms-lg-3 mt-2 mt-lg-0 rounded-0 "
+        style="background-color: #1C352D; color: aliceblue;">Let`s Start</a>
+    </div>
+
+  </section>
+
+
+  <div id="for1"></div>
+  <section class="prabal1">
+    <div class="container-fluid back-body">
+      <div class="container back-body">
+        <div class="left d-flex row py-5">
+          <div class="col-lg-3">
+            <img src="assests/profile.jpg" class=" img-fluid ">
+
+          </div>
+          <div class="col-md-11 col-lg-8 ">
+            <div class="middle mt-5">
+              <h1 class="fw-bold">Prabal Bansal</h1>
+              <h4 class="">(Front-End Developer)</h4>
+              <p>Hi, I’m Prabal ! I specialize in front-end web development with a strong foundation in HTML, CSS,
+                JavaScript, and Bootstrap. I love designing responsive layouts and bringing websites to life with smooth
+                functionality. As I continue to grow my skills, my goal is to create impactful digital experiences that
+                combine design and performance.</p>
+
+            </div>
+            <h3>Tech Skills</h3>
+            <div class="btn" style="background-color: antiquewhite; ">Html</div>
+            <div class="btn" style="background-color: antiquewhite; ">CSS</div>
+            <div class="btn" style="background-color: antiquewhite; ">Bootstrap</div>
+            <div class="btn" style="background-color: antiquewhite; ">JavaScript</div>
+            <div id="for2"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="Projects pro border-cus p-4  ">
+    <div class="container pro ">
+      <div class="project-content">
+        <div class="row">
+          <div class="col-12  text-center">
+            <h1 class="" style="border-bottom: 2px solid #1C352D;">Projects</h1>
+          </div>
+          <div class="col-12 ">
+            <h5>🎬 Netflix Clone </h5>
+            <p> A front-end clone of the popular streaming platform Netflix, built using HTML, CSS, and JavaScript. It
+              features a responsive layout, interactive UI, and a clean design similar to the original platform. This
+              project helped me practice working with grid layouts, media queries, and hover effects to create a
+              professional-looking interface. <a href="https://github.com/prabal49/projects.git" target="_blank"
+                class="btn fw-bold" style="border:2px solid #1C352D; ">Click!</a>
+            </p>
+          </div>
+          <div class="col-12">
+            <h5>🎵 Spotify Clone</h5>
+            <p>A music streaming interface inspired by Spotify, created with HTML, CSS, and Bootstrap. It includes a
+              responsive navigation bar, playlist section, and a player layout. This project improved my ability to
+              style complex UI components and make them adaptive across devices. <a
+                href="https://github.com/prabal49/spotify-working-clone.git" target="_blank" class="btn fw-bold"
+                style="border:2px solid #1C352D; ">Click!</a></p>
+          </div>
+          <div class="col-12">
+            <h5>🔗 Responsive Links/Portfolio Website </h5>
+            <p>A fully responsive portfolio and link website built with Bootstrap and CSS media queries. It serves as a
+              hub for showcasing my work and personal projects. This project strengthened my understanding of
+              responsiveness, layout structuring, and Bootstrap utilities for faster development.<a href="index.html"
+                target="_blank" class="btn fw-bold" style="border:2px solid #1C352D; ">Click!</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="back-body prabal-form">
+    <div class="container back-body py-5">
+      <div class="row justify-content-center">
+        <div class="col-7">
+          <h1 class="text-center ">Lets Connect</h1>
+        </div>
+        <div class="col-lg-6  col-md-12">
+          <form class="p-4 border rounded shadow-sm bg-light">
+            <div class="mb-3">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            </div>
+
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Write your message here"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+    </form>
+    </div>
+  </section>
+
+
+
+  <footer class="shadow-coustom2  py-3 coustom-nav prabal-foot">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-4 text-center text-md-start mb-4 mb-md-0">
+          <div class="footer-logo ">
+            <img src="assests/Prabal.png" class="w-25" alt="African Leadership Logo">
+          </div>
+          <p class="mt-3 fw-bold text-white">Connect with us</p>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+              target="_blank"><i class="fab fa-youtube "></i></a>
+            <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+              target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+              target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+              target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+              target="_blank"><i class="fab fa-x-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4 mb-md-0">
+          <h6 class=" text-white fw-bold">Quick links</h6>
+          <div class="footer-links">
+            <a href="#for1" class="text-white-50"><i class="fa-solid fa-angle-right mx-1 text-white-50"></i
+                class="text-white">About us</a>
+            <a href="#for2" class="text-white-50"><i class="fa-solid fa-angle-right mx-1 text-white-50"></i
+                class="text-white">Projects</a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <h6 class="fw-bold text-white">Contact us</h6>
+          <div class="footer-contact">
+
+            <p class=""><a href="mailto:info@africanleadership.org" class="text-white-50">35prabal@gmail.com</a></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <section>
+    <div class="container-fluid bg-dark py-2">
+      <div class="container">
+        <div class="row text-md-center text-sm-center text-lg-center text-xl-start">
+          <div class="col-12  text-white roboto font-14">
+            <h6> <i class="fa-regular fa-handshake"></i> Work
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
